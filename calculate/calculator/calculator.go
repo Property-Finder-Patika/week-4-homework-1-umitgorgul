@@ -7,8 +7,10 @@ import (
 	"math"
 	"os"
 	"strings"
-	// homework "fundamentals/ch07/homework"
+	homework "fundamentals/ch07/homework"
 )
+
+//the code we studied last week notting changed except added extra interface named homework which isn't finished yet
 
 var flag bool = true
 
@@ -65,9 +67,6 @@ func functions() {
 
 func calculator() {
 	myCalculator := Calculator{}
-	//myCalculator.functions[0] = Sin{"Sinus"}
-	//myCalculator.functions[1] = Cos{"Cosinus"}
-	//myCalculator.functions[2] = Log{"Log"}
 
 	myCalculator.addMathFunction(mathFunction.Sin{"Sinus"})
 	myCalculator.addMathFunction(mathFunction.Cos{"Cosines"})
@@ -80,9 +79,7 @@ func calculator() {
 
 func startCalculator() {
 	myCalculator := Calculator{}
-	//myCalculator.functions[0] = Sin{"Sinus"}
-	//myCalculator.functions[1] = Cos{"Cosinus"}
-	//myCalculator.functions[2] = Log{"Log"}
+
 	myCalculator.addMathFunction(mathFunction.Sin{"Sine"})
 	myCalculator.addMathFunction(mathFunction.Cos{"Cosine"})
 	myCalculator.addMathFunction(mathFunction.Log{"Log"})
@@ -94,12 +91,6 @@ func startCalculator() {
 	}
 
 	for flag {
-		//var x string
-		//_, err := fmt.Scanf("%s", &x)
-		//if err != nil {
-		//	fmt.Println(err)
-		//	os.Exit(0)
-		//}
 		var fName string
 		var arg float64
 		fmt.Println("> Enter name of the calculation or enter x to exit:")
