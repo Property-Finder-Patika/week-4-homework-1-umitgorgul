@@ -35,9 +35,6 @@ func main() {
 
 func startCalculator() {
 	myCalculator := Calculator{}
-	//myCalculator.functions[0] = Sin{"Sinus"}
-	//myCalculator.functions[1] = Cos{"Cosinus"}
-	//myCalculator.functions[2] = Log{"Log"}
 	myCalculator.addHeatFunction(heatFunction.Celsius{"Celsius"})
 	myCalculator.addHeatFunction(heatFunction.Fahrenheit{"Fahrenheit"})
 	myCalculator.addHeatFunction(heatFunction.Kelvin{"Kelvin"})
