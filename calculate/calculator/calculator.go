@@ -3,11 +3,11 @@ package main
 import (
 	"errors"
 	"fmt"
-	mathFunction "fundamentals/ch07/math"
+	mathFunction "/math"
 	"math"
 	"os"
 	"strings"
-	homework "fundamentals/ch07/homework"
+	homework "/homework"
 )
 
 //the code we studied last week notting changed except added extra interface named homework which isn't finished yet
