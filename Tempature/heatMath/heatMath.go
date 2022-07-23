@@ -2,7 +2,7 @@ package heatMath
 
 //interface zone
 type HeatFunction interface {
-	Calculate(arg float64, toChange string) float64
+	Calculate(arg float64, toChange string) float64 
 	GetName() string
 }
 
